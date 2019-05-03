@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-
+tput civis
 echo "Begin Updates..."
 sudo apt update
 sudo apt upgrade
@@ -9,3 +9,4 @@ sudo apt autoremove -yy
 sudo apt autoclean -yy
 sudo apt list --upgradable
 echo "Finished."
+tput cnorm

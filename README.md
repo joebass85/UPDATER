@@ -9,8 +9,7 @@ removes any orphaned dependencies
 clears the apt cache 
 lists and packages that need upgraded
 ```
-### `WARNING:`
-The apt autoremove and apt autoclean commands run automatically by default.
+### `WARNING:` The apt autoremove andautoclean commands run automatically by default.
 
 You also have to make the script executable for your system. By default, the permissions are set to read/write only. 
 This can be done with `sudo chmod +X up`
